@@ -61,7 +61,7 @@ See the [video](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/medi
 
 ### From videos to the animator
 
-
+![alt text](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-compare.png "")
 
 
 
