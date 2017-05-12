@@ -59,6 +59,8 @@ The implementation of the [Camshift](http://docs.opencv.org/3.1.0/db/df8/tutoria
 
 See the [video](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-handtracking.mov) for details.
 
+### From videos to the animator
+
 
 
 
