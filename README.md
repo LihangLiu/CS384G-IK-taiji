@@ -32,7 +32,12 @@ From the \theta and d, we can get the needed quaternion to make up the discrepan
 
       quat = (cos(\theta), d*sin(\theta))
       
-     
+### Object Tracking in videos
+In order to track the hands in the video, here we use the Camshift (Continuously Adaptive Meanshift) algorithm for tracking. 
+
+The idea of Meanshift is simple, for a given window of the initial image, we can get a histogram of this region, which is the encoding of the object within the window. When the next frame comes, the algorithm will shift the window with the same size to minimize the distance of two corresponding histograms until convergence.
+
+The problem of Meanshift is that it assumes that the window size stays the same. What Camshift will do is that it will first apply Meanshift to the convergence, and then update size of the window. Then the Meanshift is applied again so on so forth until the distance error is within the given threshold.
 
 
 
