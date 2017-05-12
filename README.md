@@ -68,7 +68,12 @@ By applying the Camshift algorithm to an online video, we can get the trajectori
 
 See [the original video](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-original.mp4) and [the animated video](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-handtracking.mp4) for details.
 
+## Sum up the video resources 
 
+1. (https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-picker.mov)
+2. (https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-handtracking.mov)
+3. (https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-original.mp4)
+4. (https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-handtracking.mp4)
 
 
 
