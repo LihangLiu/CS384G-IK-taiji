@@ -39,5 +39,26 @@ The idea of Meanshift is simple, for a given window of the initial image, we can
 
 The problem of Meanshift is that it assumes that the window size stays the same. What Camshift will do is that it will first apply Meanshift to the convergence, and then update size of the window. Then the Meanshift is applied again so on so forth until the distance error is within the given threshold.
 
+## Experiments
+
+### Inverse Kinematics
+
+![alt text](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-picker.png "animator")
+
+We based IK implementation on the course project animator as shown above. The red ball is the target and the animated character can use IK to approach the red ball. See the [video](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-picker.mov) for details.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
