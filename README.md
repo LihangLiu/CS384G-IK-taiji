@@ -1,5 +1,6 @@
 # From Video to Animator
 Lihang Liu
+
 University of Texas at Austin
 
 ## Abstract. 
