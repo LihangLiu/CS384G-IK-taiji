@@ -44,7 +44,7 @@ The problem of Meanshift is that it assumes that the window size stays the same.
 
 ### Inverse Kinematics
 
-![alt text](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-picker.png "animator")
+![alt text](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-picker.gif "animator")
 
 We based IK implementation on the course project animator as shown above. The red ball is the target and the animated character can use IK to approach the red ball. There are several features added to the animator:
 1. The user can pick the red ball and move around.
@@ -54,7 +54,7 @@ See the [video](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/medi
 
 ### Hand Tracking in videos
 
-![alt text](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-handtracking.png "hand tracking")
+![alt text](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-handtracking.gif "hand tracking")
 
 The implementation of the [Camshift](http://docs.opencv.org/3.1.0/db/df8/tutorial_py_meanshift.html) algoithm is provided by the [opencv](http://docs.opencv.org/3.1.0/index.html) community. We use their tool to track the left and right hands of the man in the video.
 
@@ -62,7 +62,8 @@ See the [video](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/medi
 
 ### From videos to the animator
 
-![alt text](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-compare.png "")
+![alt text](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-original.gif)
+![alt text](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-handtracking.gif)
 
 By applying the Camshift algorithm to an online video, we can get the trajectories for the left and the right hands of the man. Then, we can enable the end-effectors of the animated character to follow the trajectories by applying the CCD algorithm.
 
