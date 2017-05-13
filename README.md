@@ -62,8 +62,7 @@ See the [video](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/medi
 
 ### From videos to the animator
 
-![alt text](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-original.gif)
-![alt text](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-handtracking.gif)
+![alt text-1](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-original.gif)![alt text-2](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-handtracking.gif)
 
 By applying the Camshift algorithm to an online video, we can get the trajectories for the left and the right hands of the man. Then, we can enable the end-effectors of the animated character to follow the trajectories by applying the CCD algorithm.
 
