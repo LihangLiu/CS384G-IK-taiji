@@ -75,7 +75,15 @@ See [the original video](https://raw.githubusercontent.com/LihangLiu/IK-taiji/ma
 3. (https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-original.mp4)
 4. (https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-handtracking.mp4)
 
+## References
 
+Paul R P. Robot manipulators: mathematics, programming, and control: the computer control of robot manipulators[M]. Richard Paul, 1981.
+
+Canutescu A A, Dunbrack R L. Cyclic coordinate descent: A robotics algorithm for protein loop closure[J]. Protein science, 2003, 12(5): 963-972.
+
+Cheng Y. Mean shift, mode seeking, and clustering[J]. IEEE transactions on pattern analysis and machine intelligence, 1995, 17(8): 790-799.
+
+Bradski G R. Computer vision face tracking for use in a perceptual user interface[J]. 1998.
 
 
 
