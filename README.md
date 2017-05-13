@@ -1,9 +1,9 @@
-# From Video to Animator
+# From Videos to the Animator
 Lihang Liu
 
 University of Texas at Austin
 
-## Abstract. 
+## Abstract
 In this project, we try to combine hand tracking with [Inverse Kinematics](https://en.wikipedia.org/wiki/Inverse_kinematics).
 Firstly, the inverse kinematics will be implemented to enable the animated
 character to move according to the changing end-effectors. Secondly, we can extract
@@ -33,7 +33,7 @@ From the \theta and d, we can get the needed quaternion to make up the discrepan
 
       quat = (cos(\theta), d*sin(\theta))
       
-### Object Tracking in videos
+### Object Tracking in Videos
 In order to track the hands in the video, here we use the Camshift (Continuously Adaptive Meanshift) algorithm for tracking. 
 
 The idea of Meanshift is simple, for a given window of the initial image, we can get a histogram of this region, which is the encoding of the object within the window. When the next frame comes, the algorithm will shift the window with the same size to minimize the distance of two corresponding histograms until convergence.
@@ -52,7 +52,7 @@ We based IK implementation on the course project animator as shown above. The re
 
 See the [video](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-picker.mov) for details.
 
-### Hand Tracking in videos
+### Hand Tracking in Videos
 
 ![alt text](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-handtracking.gif "hand tracking")
 
@@ -60,7 +60,7 @@ The implementation of the [Camshift](http://docs.opencv.org/3.1.0/db/df8/tutoria
 
 See the [video](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-handtracking.mov) for details.
 
-### From videos to the animator
+### From Videos to the Animator
 
 ![alt text-1](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-original.gif)![alt text-2](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-handtracking.gif)
 
