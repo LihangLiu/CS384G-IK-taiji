@@ -64,16 +64,16 @@ See the [video](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/medi
 
 ![alt text-1](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-original.gif)![alt text-2](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-handtracking.gif)
 
-By applying the Camshift algorithm to an online video, we can get the trajectories for the left and the right hands of the man. Then, we can enable the end-effectors of the animated character to follow the trajectories by applying the CCD algorithm.
+We download a video with a man playing Tai Chi. By applying the Camshift algorithm to the video, we can get the trajectories for the left and the right hands of the man. Then, we can enable the end-effectors of the animated character to follow the trajectories by applying the CCD algorithm.
 
 See [the original video](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-original.mp4) and [the animated video](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-handtracking.mp4) for details.
 
 ## Sum up the video resources 
 
-1. (https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-picker.mov)
-2. (https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-handtracking.mov)
-3. (https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-original.mp4)
-4. (https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-handtracking.mp4)
+1. [The user picked the target and move around, while the end-effector will follow the movement by CCD algorithm.](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-picker.mov)
+2. [The Camshift algorithm is applied to track the hand of a man in a video.](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-handtracking.mov)
+3. [The original video with a man playing Tai Chi](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-original.mp4)
+4. [The video with an animated character playing Tai Chi, just like what the man does.](https://raw.githubusercontent.com/LihangLiu/IK-taiji/master/media/taiji-ik-handtracking.mp4)
 
 ## References
 
